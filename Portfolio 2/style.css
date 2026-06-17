@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#FAF7F2;
+    color:#2D2D2D;
+}
+
+/* HERO */
+
+header{
+    text-align:center;
+    padding:70px 20px;
+    background:
+    linear-gradient(
+        180deg,
+        #F4D6DC,
+        #FAF7F2
+    );
+}
+
+.profile-pic{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+
+    border:6px solid white;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.10);
+}
+
+header h1{
+    margin-top:25px;
+    font-size:3.2rem;
+    color:#4A5D4D;
+}
+
+header h2{
+    margin-top:10px;
+    color:#D88C9A;
+    font-weight:500;
+}
+
+header p{
+    max-width:650px;
+    margin:25px auto;
+    line-height:1.8;
+}
+
+/* SECTIONS */
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:70px 25px;
+}
+
+section h3{
+    text-align:center;
+    margin-bottom:35px;
+    color:#4A5D4D;
+    font-size:2rem;
+}
+
+/* ABOUT */
+
+.about p{
+    text-align:center;
+    line-height:1.9;
+    max-width:800px;
+    margin:auto;
+}
+
+/* SKILLS */
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(140px,1fr));
+
+    gap:20px;
+}
+
+.skill{
+    background:white;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    text-align:center;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.06);
+
+    transition:0.3s;
+}
+
+.skill:hover{
+    transform:translateY(-6px);
+
+    box-shadow:
+    0 10px 20px rgba(0,0,0,0.08);
+}
+
+.skill img{
+    width:60px;
+    height:60px;
+}
+
+.skill span{
+    display:block;
+    margin-top:12px;
+    font-weight:600;
+    color:#4A5D4D;
+}
+
+/* PROJECTS */
+
+.projects{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.project-card{
+    background:white;
+
+    border-left:
+    8px solid #D88C9A;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.06);
+}
+
+.project-card h4{
+    color:#4A5D4D;
+    margin-bottom:10px;
+}
+
+.project-card p{
+    line-height:1.8;
+}
+
+/* CONTACT */
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:12px 0;
+}
+
+.contact a{
+    color:#D88C9A;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.contact a:hover{
+    color:#4A5D4D;
+}
+
+/* FOOTER */
+
+footer{
+    background:#4A5D4D;
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2.4rem;
+    }
+
+    header h2{
+        font-size:1.2rem;
+    }
+
+    .profile-pic{
+        width:140px;
+        height:140px;
+    }
+}
