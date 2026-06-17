@@ -1,1 +1,114 @@
-# Bmarques01.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruna Marques | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+        <img src="images/profile.jpg" alt="Bruna Marques" class="profile-pic">
+
+        <h1>Bruna Marques</h1>
+
+        <h2>Computer Science Student & Cloud Enthusiast</h2>
+
+    </header>
+
+    <section class="about">
+
+        <h3>About Me</h3>
+
+        <p>
+            Hello! I'm Bruna, a Computer Science student. My interests include cloud computing and
+            software development. I'm constantly looking for new challenges and
+            opportunities to grow professionally.
+        </p>
+
+    </section>
+
+    <section class="skills">
+
+        <h3>Skills</h3>
+
+        <div class="skills-grid">
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+                <span>Python</span>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg">
+                <span>C++</span>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
+                <span>C</span>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                <span>HTML</span>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                <span>CSS</span>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="skill">
+                <img src="images/aws.png">
+                <span>AWS</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="projects">
+
+    <h3>Projects</h3>
+
+    <div class="project-card">
+        <h4>🎮 Interactive Ebook Game</h4>
+
+        <p>
+            Object-oriented C++ project featuring combat mechanics,
+            inventory management and branching narratives.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <h4>📚 Bookstore Database</h4>
+
+        <p>
+            Academic project focused on designing a relational database for a
+            bookstore. Created tables, relationships and SQL queries to manage
+            books, customers and sales records.
+        </p>
+    </div>
+
+</section>
+    <section class="contact">
+
+        <h3>Contact</h3>
+
+        <p>📧 Email: brunalarissamarques@hotmail.com</p>
+        <p>💼 LinkedIn: https://www.linkedin.com/in/bruna-larissa-marques/</p>
+        <p>💻 GitHub: https://github.com/Bmarques01</p>
+
+    </section>
+
+</body>
+</html>
